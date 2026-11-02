@@ -34,4 +34,4 @@ python -m reclab recommend examples/synthetic/ratings.csv --user viewer-000 --mo
 
 ## 持续集成
 
-工作流会在 Windows / Linux、Python 3.11 / 3.13 上运行测试和完整合成数据评估。本地记录仅代表实际执行的 Windows Python 3.13 环境；远端状态以 GitHub Actions 页面为准。
+工作流会在 Windows / Linux、Python 3.11 / 3.13 上运行测试和完整合成数据评估。[首次远端运行](https://github.com/gky051224/recommendation-workbench/actions/runs/41398809641) 的四种环境均已通过。随后更新了检出代码和安装 Python 的官方 Actions 版本，以消除旧 Node.js 运行时的弃用提示；最新提交的状态以 GitHub Actions 页面为准。
