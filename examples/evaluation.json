@@ -1,0 +1,110 @@
+{
+  "version": "0.1.0",
+  "seed": 42,
+  "protocol": "per-user 70/15/15; validation selects K; refit train+validation; test once",
+  "parameters": {
+    "shrinkage": 5.0,
+    "regularization": 10.0,
+    "bias_iterations": 12
+  },
+  "splits": {
+    "train": {
+      "count": 1120,
+      "sha256": "b151300a0e6d4a765e21331643dd97b8f72362be2ed54b352f617e15bc6c41ca"
+    },
+    "validation": {
+      "count": 160,
+      "sha256": "175b3fb423b7a043da4ccee89f36f8c6f1f601327b9a251536ad3c5c1aa33614"
+    },
+    "test": {
+      "count": 160,
+      "sha256": "694cd783f21b05a67aff57a390b9e5dd7f265aa3fcb84782bb2fb8f645ef99ed"
+    }
+  },
+  "baseline": {
+    "rmse": 0.9176659936555136,
+    "mae": 0.7749579957783356,
+    "fallback_rate": 1.0,
+    "count": 160
+  },
+  "algorithms": {
+    "user": {
+      "best_k": 5,
+      "validation": [
+        {
+          "k": 3,
+          "rmse": 0.4836083400534867,
+          "mae": 0.37952862754784294,
+          "fallback_rate": 0.0,
+          "count": 160
+        },
+        {
+          "k": 5,
+          "rmse": 0.4822413475293937,
+          "mae": 0.384369996633391,
+          "fallback_rate": 0.0,
+          "count": 160
+        },
+        {
+          "k": 10,
+          "rmse": 0.5086146133928386,
+          "mae": 0.39629064265882974,
+          "fallback_rate": 0.0,
+          "count": 160
+        },
+        {
+          "k": 20,
+          "rmse": 0.5262593468823157,
+          "mae": 0.41080180848631925,
+          "fallback_rate": 0.0,
+          "count": 160
+        }
+      ],
+      "test": {
+        "rmse": 0.3739202283591457,
+        "mae": 0.30174886365119913,
+        "fallback_rate": 0.0,
+        "count": 160
+      }
+    },
+    "item": {
+      "best_k": 3,
+      "validation": [
+        {
+          "k": 3,
+          "rmse": 0.4641322222500164,
+          "mae": 0.37582390547700334,
+          "fallback_rate": 0.00625,
+          "count": 160
+        },
+        {
+          "k": 5,
+          "rmse": 0.4738949018508337,
+          "mae": 0.38232753643677164,
+          "fallback_rate": 0.00625,
+          "count": 160
+        },
+        {
+          "k": 10,
+          "rmse": 0.4749859445597749,
+          "mae": 0.3851728965290321,
+          "fallback_rate": 0.00625,
+          "count": 160
+        },
+        {
+          "k": 20,
+          "rmse": 0.4749859445597749,
+          "mae": 0.3851728965290321,
+          "fallback_rate": 0.00625,
+          "count": 160
+        }
+      ],
+      "test": {
+        "rmse": 0.4318581644509791,
+        "mae": 0.34102411367579205,
+        "fallback_rate": 0.0,
+        "count": 160
+      }
+    }
+  }
+}

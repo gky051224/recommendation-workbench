@@ -1,0 +1,107 @@
+{
+  "user": "viewer-000",
+  "mode": "item",
+  "cold_start": false,
+  "recommendations": [
+    {
+      "item_id": "film-12",
+      "title": "Fictional Film 13",
+      "score": 4.157125269725073,
+      "baseline": 3.1595302563206547,
+      "fallback": false,
+      "neighbors": [
+        {
+          "id": "film-08",
+          "similarity": 0.6211863137353603,
+          "residual": 0.8694608069388368
+        },
+        {
+          "id": "film-00",
+          "similarity": 0.605621987888241,
+          "residual": 1.1290222352846917
+        }
+      ]
+    },
+    {
+      "item_id": "film-04",
+      "title": "Fictional Film 05",
+      "score": 4.113309747188085,
+      "baseline": 3.1322554332497368,
+      "fallback": false,
+      "neighbors": [
+        {
+          "id": "film-08",
+          "similarity": 0.5992132354422368,
+          "residual": 0.8694608069388368
+        },
+        {
+          "id": "film-00",
+          "similarity": 0.4519108315849494,
+          "residual": 1.1290222352846917
+        }
+      ]
+    },
+    {
+      "item_id": "film-32",
+      "title": "Fictional Film 33",
+      "score": 4.084401997361464,
+      "baseline": 3.168751391913539,
+      "fallback": false,
+      "neighbors": [
+        {
+          "id": "film-08",
+          "similarity": 0.670955915753338,
+          "residual": 0.8694608069388368
+        },
+        {
+          "id": "film-00",
+          "similarity": 0.5743821363580066,
+          "residual": 1.1290222352846917
+        },
+        {
+          "id": "film-06",
+          "similarity": 0.06618594841427264,
+          "residual": -0.4678082135384627
+        }
+      ]
+    },
+    {
+      "item_id": "film-20",
+      "title": "Fictional Film 21",
+      "score": 4.083894898092163,
+      "baseline": 3.08910586201693,
+      "fallback": false,
+      "neighbors": [
+        {
+          "id": "film-08",
+          "similarity": 0.6481879246500412,
+          "residual": 0.8694608069388368
+        },
+        {
+          "id": "film-00",
+          "similarity": 0.6051874292083574,
+          "residual": 1.1290222352846917
+        }
+      ]
+    },
+    {
+      "item_id": "film-16",
+      "title": "Fictional Film 17",
+      "score": 4.078715641544285,
+      "baseline": 3.090198484384347,
+      "fallback": false,
+      "neighbors": [
+        {
+          "id": "film-08",
+          "similarity": 0.5714858937372802,
+          "residual": 0.8694608069388368
+        },
+        {
+          "id": "film-00",
+          "similarity": 0.48424601885772234,
+          "residual": 1.1290222352846917
+        }
+      ]
+    }
+  ]
+}
